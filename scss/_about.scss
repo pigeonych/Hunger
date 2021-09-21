@@ -1,0 +1,40 @@
+.about {
+	display: flex;
+	align-items: center;
+	background-color: #E5E5E5;
+	min-height: 675px;
+	&__row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__text {
+		text-align: center;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
+	&__title {
+		position: relative;
+		margin: 0px 0px 25px 0px;
+	}
+	&__title::before {
+		content: "";
+		position: absolute;
+		height: 5px;
+		width: 60px;
+		background-color: $main-color;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, 30px);
+	}
+
+	&__subTitle {
+		margin: 0px 0px 25px 0px;
+	}
+
+	&__img {
+		transform:translate(15%, 0);
+	}
+}
+

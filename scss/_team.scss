@@ -1,0 +1,49 @@
+.team {
+	display: flex;
+	align-items: center;
+	min-height: 676px;
+	background: url(../img/team/team-bg.jpg) center no-repeat;
+	background-size: cover;
+	&__descr {
+		text-align: center;
+	}
+
+	&__row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__img {
+		transform: translate(-13%, 0);
+	}
+
+	&__text {
+		text-align: center;
+	}
+
+	&__title {
+		color: $text-color;
+		position: relative;
+		margin: 0px 0px 25px 0px;
+	}
+	&__title::before{
+		content: "";
+		position: absolute;
+		height: 5px;
+		width: 60px;
+		background-color: $main-color;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, 30px);
+	}
+
+	&__subTitle {
+		color: $text-color;
+		margin: 0px 0px 25px 0px;
+	}
+
+	&__paragr {
+		color: $text-color;
+	}
+}

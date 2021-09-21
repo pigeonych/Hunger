@@ -1,0 +1,13 @@
+.footer {
+	background-color: #000000E5;
+	min-height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&__text {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 12px;
+		line-height: 12px;
+		color: rgba(255, 255, 255, 0.5);
+	}
+}

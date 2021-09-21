@@ -1,0 +1,45 @@
+.special {
+	min-height: 675px;
+	display: flex;
+	align-items: center;
+	background: url(../img/special/special-bg.jpg) center no-repeat;
+	background-size: cover;
+	&__row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__descr {
+		color: $text-color;
+		text-align: center;
+	}
+
+	&__img {
+		transform:translate(-12%, 0);
+	}
+
+	&__text {
+		text-align: center;
+		color: $text-color;
+	}
+
+	&__title {
+		position: relative;
+		margin: 0px 0px 25px 0px;
+	}
+	&__title::before{
+		content: "";
+		position: absolute;
+		height: 5px;
+		width: 60px;
+		background-color: $main-color;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, 30px);
+	}
+
+	&__subTitle {
+		margin: 0px 0px 25px 0px;
+	}
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Slab:wght@900&display=swap');
+/////////////////////////////////////////////////////////////////////////////
+@import "variables";
+/////////////////////////////////////////////////////////////////////////////
+@import "greet";
+@import "about";
+@import "team";
+@import "booking";
+@import "special";
+@import "party";
+@import "pic";
+@import "contact";
+@import "footer";
+@import "modal";
+
+
+.container {
+	max-width: 1285px;
+	margin: 0 auto;
+}
+
+.descr {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 14px;
+	letter-spacing: 0.5em;
+	color: $text-color;
+}
+
+.title {
+	font-family: "Roboto Slab", sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 48px;
+}
+.subTitle {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 28px;
+}
+.paragr {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+}
+
+.hide {
+	display: none;
+}
+.show {
+	display: flex;
+}

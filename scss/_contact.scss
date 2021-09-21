@@ -1,0 +1,118 @@
+.contact {
+	min-height: 675px;
+	display: flex;
+	align-items: center;
+	&__row {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__text {
+		max-width: 565px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	&__title {
+		position: relative;
+		margin: 0px 0px 25px 0px;
+	}
+	&__title::before{
+		content: "";
+		position: absolute;
+		height: 5px;
+		width: 60px;
+		background-color: $main-color;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, 30px);
+	}
+
+	&__subTitle {
+		margin: 0px 0px 25px 0px;
+	}
+
+	&__form {
+		a {
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			width: 628px;
+			height: 60px;
+			border-radius: 5px;
+			background: #E8C300;
+			font-family: "Open Sans", sans-serif;
+			font-size: 14px;
+			line-height: 20px;
+			font-weight: 700;
+			color: #fff;
+		}
+		a:hover{
+			background-color: #FFC107;
+			transition: all 0.5s ease 0s;
+			box-shadow: 0 14px 28px rgba(232, 195, 0, 0.25),
+						0 10px 10px rgba(232, 195, 0, 0.22);
+		}
+	}
+	&__input-wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0px 0px 10px;
+	}
+
+	&__name {
+		width: 420px;
+		height: 60px;
+		background-color: #E5E5E5;
+		border-radius: 5px;
+		text-indent: 20px;
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	&__email {
+		width: 420px;
+		height: 60px;
+		background-color: #E5E5E5;
+		border-radius: 5px;
+		text-indent: 20px;
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	&__phone {
+		width: 420px;
+		height: 60px;
+		background-color: #E5E5E5;
+		border-radius: 5px;
+		text-indent: 20px;
+		font-size: 14px;
+		line-height: 19px;
+	}
+
+	&__pov {
+		width: 100%;
+		height: 120px;
+		background-color: #E5E5E5;
+		border-radius: 5px;
+		margin: 0px 0px 10px 0px;
+		text-indent: 20px;
+		font-size: 14px;
+		line-height: 19px;
+		padding: 20px 0px 0px 0px;
+	}
+
+	&__info {
+		display: inline-block;
+		margin: 0px 25px 0px 0px;
+		color: #E8C300;
+
+	}
+	&__info span {
+		display: inline-block;
+		margin: 0px 0px 0px 10px;
+		font-size: 14px;
+		color: #000;
+	}
+
+}
