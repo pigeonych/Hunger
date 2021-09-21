@@ -75,10 +75,6 @@
 	opacity: 1;
 	visibility: visible;
 }
-.hide {
-	opacity: 0;
-	visibility: hidden;
-}
 
 .popup.open .popup__content {
 	transform: perspective(600px) translate(0px, 0%)  rotate(0deg);
